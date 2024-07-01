@@ -1,8 +1,8 @@
 package org.example;
 
 
-import org.example.PageObject.MainPage;
-import org.example.PageObject.OrderPage;
+import org.example.pageobject.MainPage;
+import org.example.pageobject.OrderPage;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
@@ -39,7 +39,7 @@ public class OrderTest extends BaseTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getCities() {
+    public static Object[][] getOrderData() {
         return new Object[][] {
                 {"Верхняя кнопка", "Иван", "Иванов", "Ленина, 15", "Сокольники", "+79999999999",
                        "04.07.2024", "трое суток", "black", "Заказ оформлен"},

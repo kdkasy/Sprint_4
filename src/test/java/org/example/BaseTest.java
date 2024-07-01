@@ -1,7 +1,7 @@
 package org.example;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.PageObject.MainPage;
+import org.example.pageobject.MainPage;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.Cookie;
